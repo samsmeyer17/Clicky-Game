@@ -1,18 +1,12 @@
 import React from "react";
 
+
 function Navbar() {
   return (
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+    <nav className="navbar navbar-light">
+      <a className="navbar-brand" href="/">Click for Justice!!</a>
+      <a className="navbar-brand" href="/">Click An Image To Get Started!</a>
+    </nav>
   )
 }
 
