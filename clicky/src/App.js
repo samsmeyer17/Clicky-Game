@@ -1,10 +1,14 @@
 import React from 'react';
 import Navbar from "./components/navbar"
+import Game from "./components/game"
 import './App.css';
 
 function App() {
   return (
-    <Navbar />
+    <div>
+      <Navbar />
+      <Game />
+    </div>
   );
 }
 

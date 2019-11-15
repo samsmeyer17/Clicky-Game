@@ -1,4 +1,4 @@
-import {React, Component} from "react";
+import React, {Component} from "react";
 
 class Game extends Component {
   state = {
@@ -10,9 +10,7 @@ class Game extends Component {
 
   }
 
-  render(){
-    
-  }
+  
 }
 
 export default Game;
